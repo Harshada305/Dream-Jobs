@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 
-public class JobPostApplication {
+public class JobPostApplication1 {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
@@ -29,7 +29,7 @@ public class JobPostApplication {
 		return builder.build();
 	}
 	public static void main(String[] args) {
-		SpringApplication.run(JobPostApplication.class, args);
+		SpringApplication.run(JobPostApplication1.class, args);
 	}
 
 }
